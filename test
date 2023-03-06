@@ -1,0 +1,15 @@
+#!/bin/bash
+
+
+
+function help_menu() {
+    echo "Usage: abuseiplookup [-h] [-c|-r] ip_address [-o] [-iL file]"
+    echo "Check or report IP address using AbuseIPDB API."
+    echo "Options:"
+    echo "  -c, --check   Check Abuse IP address"
+    echo "  -r, --report  Get Abuse Reports for IP Address"
+    echo "  -o, --only-abuse  Show only abusive IP"
+    echo "  -iL, --input-file  Read IP from file"
+    echo "  -h, --help    Show help message"
+    exit
+}
