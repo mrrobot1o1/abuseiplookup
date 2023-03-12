@@ -61,7 +61,7 @@ while [[ $# -gt 0 ]]; do
             ;;
         -o|--only-abuse)
             if [[ $ACTION != "check" ]]; then
-                echo "-o option can only be used with -c"
+                echo "Wooh!! You can not use -o option with -c"
                 help_menu
                 exit 1
             fi
