@@ -23,7 +23,7 @@ fi
 ```
 
 
-## Some use Cases;a
+## Some use Cases;
 
 > If needed Sample IPs for testing you can download it [here](https://raw.githubusercontent.com/mrrobot1o1/abuseiplookup/main/sample_ips.txt) (I Got them From ABUSEIPDB)
 
